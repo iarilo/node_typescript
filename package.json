@@ -1,0 +1,20 @@
+{
+  "name": "node_typescript",
+  "version": "1.0.0",
+  "description": "Проект на node.js и  typescript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iarilo/node_typescript.git"
+  },
+  "author": "Брынза Виталий",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iarilo/node_typescript/issues"
+  },
+  "homepage": "https://github.com/iarilo/node_typescript#readme"
+}
