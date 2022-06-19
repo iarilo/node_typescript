@@ -1,7 +1,9 @@
 
- import express  from 'express'
+/*  import express  from 'express'
  const port = 8000;
- const app = express();
+ const app = express(); */
+
+
 
   /* app.get('/hello', (req, res) => {
    res.send('Hellow');
@@ -90,19 +92,21 @@ app.get('/hello', (req, res) => {
  res.send('Hellow cookie')
 })  */
 
+
+/* 
 // Завершение запроса
  app.get('/hello', (req, res) => {
 //res.status(404).end()
   res.end();
-})
+}) */
   
 
 
 
-  app.listen(port,() => {
+  /* app.listen(port,() => {
     console.log(` Сервер запущен на  http://localhost:${port}`);
   })
-
+ */
 
 
 

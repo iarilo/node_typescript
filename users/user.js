@@ -1,5 +1,5 @@
 
- import express from 'express';
+  import express from 'express';
  const userRouter = express.Router();
 
 
@@ -16,12 +16,7 @@ userRouter.post('/register',(req,res) => {
   res.send('Register')
  });
 
-export { userRouter };
-
-
-
-
-
+export { userRouter }; 
 
 
 

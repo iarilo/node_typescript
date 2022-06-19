@@ -1,4 +1,4 @@
-import  express  from "express";
+ import  express  from "express";
 import { userRouter } from "./users/user.js"; 
 const app = express();
 const port = 8000;
@@ -7,14 +7,15 @@ const port = 8000;
  app.use( (req,res,next) => {
  console.log('Время',Date.now());
  next();
- }); 
+ });  
 
 /* app.use('hello',(req, res, next) => {
   console.log('Время', Date.now());
   next();
-}); */
+}); *?*/
+
  
- app.get('/hello',(req,res) => {
+  app.get('/hello',(req,res) => {
  // res.send('Hellow Get');
   //res.end()
   throw new Error('Get  errror !!!')
@@ -31,7 +32,8 @@ console.log( err.message);
 
  app.listen(port, () => {
  console.log(`Сервер запущен на http://localhost:${port} `);
- });
+ }); 
+
 
 
 
